@@ -6,6 +6,8 @@ minecraftサーバーの作成を助けてくれるアプリケーションで�
 あくまでも「Helper」なのでポート開放とかサーバーファイルのダウンロードとかはしてくれません
 
 ある程度minecraftサーバーの知識はあったほうがいいです
+# ダウンロード
+https://github.com/Kyuri-jp/Minecraft-Server-Create-Helper/releases
 # 使い方
 ## セットアップ
 1. まずzipファイルを解凍しましょう
