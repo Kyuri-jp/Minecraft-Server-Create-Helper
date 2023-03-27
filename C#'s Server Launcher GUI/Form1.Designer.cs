@@ -160,7 +160,7 @@
             this.createserver.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.createserver.Location = new System.Drawing.Point(900, 532);
             this.createserver.Name = "createserver";
-            this.createserver.Size = new System.Drawing.Size(213, 78);
+            this.createserver.Size = new System.Drawing.Size(302, 78);
             this.createserver.TabIndex = 9;
             this.createserver.Text = "サーバー作成!";
             this.createserver.UseVisualStyleBackColor = true;
@@ -171,7 +171,7 @@
             this.start.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.start.Location = new System.Drawing.Point(900, 448);
             this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(213, 78);
+            this.start.Size = new System.Drawing.Size(302, 78);
             this.start.TabIndex = 10;
             this.start.Text = "サーバー起動!";
             this.start.UseVisualStyleBackColor = true;
@@ -182,7 +182,7 @@
             this.reload.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.reload.Location = new System.Drawing.Point(900, 616);
             this.reload.Name = "reload";
-            this.reload.Size = new System.Drawing.Size(213, 78);
+            this.reload.Size = new System.Drawing.Size(302, 78);
             this.reload.TabIndex = 11;
             this.reload.Text = "再読み込み";
             this.reload.UseVisualStyleBackColor = true;
@@ -203,7 +203,7 @@
             this.removefile.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.removefile.Location = new System.Drawing.Point(899, 700);
             this.removefile.Name = "removefile";
-            this.removefile.Size = new System.Drawing.Size(213, 78);
+            this.removefile.Size = new System.Drawing.Size(302, 78);
             this.removefile.TabIndex = 15;
             this.removefile.Text = "削除";
             this.removefile.UseVisualStyleBackColor = true;
@@ -212,9 +212,9 @@
             // openfolder
             // 
             this.openfolder.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.openfolder.Location = new System.Drawing.Point(1119, 448);
+            this.openfolder.Location = new System.Drawing.Point(1226, 448);
             this.openfolder.Name = "openfolder";
-            this.openfolder.Size = new System.Drawing.Size(213, 78);
+            this.openfolder.Size = new System.Drawing.Size(302, 78);
             this.openfolder.TabIndex = 16;
             this.openfolder.Text = "フォルダを開く";
             this.openfolder.UseVisualStyleBackColor = true;
@@ -223,9 +223,9 @@
             // openprofiles
             // 
             this.openprofiles.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.openprofiles.Location = new System.Drawing.Point(1119, 532);
+            this.openprofiles.Location = new System.Drawing.Point(1226, 532);
             this.openprofiles.Name = "openprofiles";
-            this.openprofiles.Size = new System.Drawing.Size(213, 78);
+            this.openprofiles.Size = new System.Drawing.Size(302, 78);
             this.openprofiles.TabIndex = 17;
             this.openprofiles.Text = "server.propertiesを開く";
             this.openprofiles.UseVisualStyleBackColor = true;
@@ -234,9 +234,9 @@
             // openworld
             // 
             this.openworld.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.openworld.Location = new System.Drawing.Point(1119, 614);
+            this.openworld.Location = new System.Drawing.Point(1226, 614);
             this.openworld.Name = "openworld";
-            this.openworld.Size = new System.Drawing.Size(213, 78);
+            this.openworld.Size = new System.Drawing.Size(302, 78);
             this.openworld.TabIndex = 18;
             this.openworld.Text = "ワールドフォルダを開く";
             this.openworld.UseVisualStyleBackColor = true;
@@ -245,9 +245,9 @@
             // exit
             // 
             this.exit.Font = new System.Drawing.Font("Yu Gothic UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.exit.Location = new System.Drawing.Point(1119, 698);
+            this.exit.Location = new System.Drawing.Point(1226, 698);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(213, 78);
+            this.exit.Size = new System.Drawing.Size(302, 78);
             this.exit.TabIndex = 19;
             this.exit.Text = "EXIT";
             this.exit.UseVisualStyleBackColor = true;
@@ -259,7 +259,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1678, 803);
+            this.ClientSize = new System.Drawing.Size(1563, 803);
             this.ControlBox = false;
             this.Controls.Add(this.exit);
             this.Controls.Add(this.labelfoldername);
