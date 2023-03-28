@@ -1,6 +1,7 @@
 # Minecraft-Server-Create-Helper
 
-![MCserverlauncher](https://user-images.githubusercontent.com/107470858/227831101-57c37602-2251-4cf5-8d02-1ae8b277f87f.svg)
+![MCserverlauncher](https://user-images.githubusercontent.com/107470858/228180940-f03ef795-4936-4790-8fa6-f8ca0e07d110.svg)
+
 
 minecraftサーバーの作成を助けてくれるアプリケーションです
 
