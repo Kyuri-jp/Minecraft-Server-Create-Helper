@@ -4,11 +4,11 @@ using System.IO;
 using System.Windows.Forms;
 using File = System.IO.File;
 
-namespace C__s_Server_Launcher_GUI
+namespace msch
 {
-    public partial class GUI : Form
+    public partial class mainform : Form
     {
-        public GUI()
+        public mainform()
         {
             InitializeComponent();
         }
@@ -147,6 +147,11 @@ namespace C__s_Server_Launcher_GUI
             }
             catch (Exception ex)
             {
+                try
+                {
+                    Directory.Delete(Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory) + "\\server\\" + foldername.Text);
+                }
+                catch { }
                 System.Media.SystemSounds.Asterisk.Play();
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 reloading();
@@ -174,10 +179,8 @@ namespace C__s_Server_Launcher_GUI
                 string selfol = serverfolder.SelectedItem.ToString();
                 Console.WriteLine(selfol);
             }
-            catch (Exception ex)
+            catch
             {
-                System.Media.SystemSounds.Asterisk.Play();
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C__s_Server_Launcher_GUI
+namespace msch
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace C__s_Server_Launcher_GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI());
+            Application.Run(new mainform());
         }
     }
 }

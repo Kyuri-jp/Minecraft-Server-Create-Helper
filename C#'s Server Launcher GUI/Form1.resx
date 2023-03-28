@@ -117,13 +117,516 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>208, 17</value>
-  </metadata>
-  <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>352, 17</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lavelserverkind.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;foldername.Name" xml:space="preserve">
+    <value>foldername</value>
+  </data>
+  <data name="&gt;&gt;createserver.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Parent" xml:space="preserve">
+    <value>nowserverfilebox</value>
+  </data>
+  <data name="&gt;&gt;serversel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="nowfolderbox.Text" xml:space="preserve">
+    <value>現在あるフォルダ</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="openprofiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 532</value>
+  </data>
+  <data name="removefile.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="serverfile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 19.8pt</value>
+  </data>
+  <data name="lavelserverkind.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="serversel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 22</value>
+  </data>
+  <data name="lavelserverkind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 9</value>
+  </data>
+  <data name="nowserverfilebox.Text" xml:space="preserve">
+    <value>現在あるサーバーファイル</value>
+  </data>
+  <data name="createserver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="start.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="serversel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 39</value>
+  </data>
+  <data name="removefile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="exit.Text" xml:space="preserve">
+    <value>EXIT</value>
+  </data>
+  <data name="&gt;&gt;removefile.Name" xml:space="preserve">
+    <value>removefile</value>
+  </data>
+  <data name="&gt;&gt;createserver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nowserverfilebox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>639, 417</value>
+  </data>
+  <data name="labelfoldername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;start.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelfoldername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 182</value>
+  </data>
+  <data name="serverfolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 25.8pt</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Parent" xml:space="preserve">
+    <value>nowfolderbox</value>
+  </data>
+  <data name="serverfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 364</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openworld.Text" xml:space="preserve">
+    <value>ワールドフォルダを開く</value>
+  </data>
+  <data name="foldername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 194</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="serverfile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;versel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="nowfolderbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 247</value>
+  </data>
+  <data name="openfolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="createserver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reload.Text" xml:space="preserve">
+    <value>再読み込み</value>
+  </data>
+  <data name="openworld.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="&gt;&gt;openworld.Name" xml:space="preserve">
+    <value>openworld</value>
+  </data>
+  <data name="createserver.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="start.Text" xml:space="preserve">
+    <value>サーバー起動!</value>
+  </data>
+  <data name="&gt;&gt;removefile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createserver.Name" xml:space="preserve">
+    <value>createserver</value>
+  </data>
+  <data name="nowserverfilebox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;versel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1510, 803</value>
+  </data>
+  <data name="openprofiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="&gt;&gt;openworld.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;start.Name" xml:space="preserve">
+    <value>start</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>mainform</value>
+  </data>
+  <data name="&gt;&gt;exit.Name" xml:space="preserve">
+    <value>exit</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.Name" xml:space="preserve">
+    <value>labelserverfile</value>
+  </data>
+  <data name="&gt;&gt;foldername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;openfolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="versel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 39</value>
+  </data>
+  <data name="serversel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lavelserverkind.Text" xml:space="preserve">
+    <value>サーバーの種類</value>
+  </data>
+  <data name="openworld.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;removefile.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nowfolderbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lavelserverkind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 62</value>
+  </data>
+  <data name="exit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;versel.Name" xml:space="preserve">
+    <value>versel</value>
+  </data>
+  <data name="lavelserverkind.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;openprofiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 698</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.Name" xml:space="preserve">
+    <value>labelfoldername</value>
+  </data>
+  <data name="reload.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="removefile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 700</value>
+  </data>
+  <data name="&gt;&gt;serversel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reload.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Minecraft Server Create Helper</value>
+  </data>
+  <data name="&gt;&gt;foldername.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Name" xml:space="preserve">
+    <value>serverfile</value>
+  </data>
+  <data name="nowserverfilebox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 12</value>
+  </data>
+  <data name="foldername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 38</value>
+  </data>
+  <data name="&gt;&gt;createserver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelfoldername.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;reload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openworld.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="versel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="nowfolderbox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="reload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="foldername.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="serverfolder.ItemHeight" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="serverfolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 476</value>
+  </data>
+  <data name="serverfile.ItemHeight" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;reload.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="start.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="labelfoldername.Text" xml:space="preserve">
+    <value>サーバーフォルダの名前</value>
+  </data>
+  <data name="&gt;&gt;openworld.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;openfolder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;start.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="createserver.Text" xml:space="preserve">
+    <value>サーバー作成!</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;serversel.Name" xml:space="preserve">
+    <value>serversel</value>
+  </data>
+  <data name="&gt;&gt;reload.Name" xml:space="preserve">
+    <value>reload</value>
+  </data>
+  <data name="reload.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nowfolderbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 531</value>
+  </data>
+  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="exit.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelfoldername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 62</value>
+  </data>
+  <data name="serverfolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 37</value>
+  </data>
+  <data name="&gt;&gt;openprofiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="removefile.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.Name" xml:space="preserve">
+    <value>nowserverfilebox</value>
+  </data>
+  <data name="openprofiles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelfoldername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
+  </data>
+  <data name="reload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 616</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.Name" xml:space="preserve">
+    <value>nowfolderbox</value>
+  </data>
+  <data name="openfolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 448</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelserverfile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.Name" xml:space="preserve">
+    <value>lavelserverkind</value>
+  </data>
+  <data name="&gt;&gt;openfolder.Name" xml:space="preserve">
+    <value>openfolder</value>
+  </data>
+  <data name="labelserverfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 99</value>
+  </data>
+  <data name="versel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="foldername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="removefile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelserverfile.Text" xml:space="preserve">
+    <value>サーバーファイル</value>
+  </data>
+  <data name="labelserverfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 62</value>
+  </data>
+  <data name="versel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 108</value>
+  </data>
+  <data name="&gt;&gt;openfolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;serversel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;removefile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Name" xml:space="preserve">
+    <value>serverfolder</value>
+  </data>
+  <data name="serverfolder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="serversel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openworld.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 614</value>
+  </data>
+  <data name="&gt;&gt;versel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;openprofiles.Name" xml:space="preserve">
+    <value>openprofiles</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 448</value>
+  </data>
+  <data name="&gt;&gt;openworld.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="serverfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="createserver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 532</value>
+  </data>
+  <data name="&gt;&gt;serverfile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelserverfile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
+  </data>
+  <data name="openfolder.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="openfolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 78</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelserverfile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nowserverfilebox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="openfolder.Text" xml:space="preserve">
+    <value>フォルダを開く</value>
+  </data>
+  <data name="&gt;&gt;foldername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openprofiles.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="openprofiles.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="openprofiles.Text" xml:space="preserve">
+    <value>server.propertiesを開く</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
 </root>
