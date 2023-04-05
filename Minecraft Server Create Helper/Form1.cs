@@ -78,7 +78,7 @@ namespace msch
             }
         }
 
-        public void GUI_Load(object sender, EventArgs e)
+        public void mainform_Load(object sender, EventArgs e)
         {
             try
             {
@@ -109,7 +109,7 @@ namespace msch
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void createserver_Click(object sender, EventArgs e)
         {
             try
             {
@@ -172,7 +172,7 @@ namespace msch
             }
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void serverfolder_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
             {
@@ -305,6 +305,44 @@ namespace msch
         private void exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void createshortcut_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //ショートカット作る
+                using (FolderBrowserDialog dialog = new FolderBrowserDialog())
+                {
+                    string errort = serverfolder.SelectedItem.ToString();
+                    dialog.Description = "ショートカットを保存するフォルダを選択してください";
+                    dialog.ShowNewFolderButton = true;
+                    DialogResult result = dialog.ShowDialog();
+                    if (result == DialogResult.OK)
+                    {
+                        string selectedPath = dialog.SelectedPath;
+                        string shortcutPath = selectedPath + "\\" + serverfolder.SelectedItem.ToString() + ".lnk";
+                        string targetPath = Directory.GetCurrentDirectory() + "\\server\\" + serverfolder.SelectedItem.ToString() + "\\start.bat";
+                        Type t = Type.GetTypeFromCLSID(new Guid("72C24DD5-D70A-438B-8A42-98424B88AFB8"));
+                        dynamic shell = Activator.CreateInstance(t);
+                        var shortcut = shell.CreateShortcut(shortcutPath);
+                        shortcut.TargetPath = targetPath;
+                        shortcut.WorkingDirectory = Directory.GetCurrentDirectory() + "\\server\\" + serverfolder.SelectedItem.ToString();
+                        shortcut.Save();
+                        System.Runtime.InteropServices.Marshal.FinalReleaseComObject(shortcut);
+                        System.Runtime.InteropServices.Marshal.FinalReleaseComObject(shell);
+                        MessageBox.Show("ショートカットを作成しました", "information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    { }
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Media.SystemSounds.Asterisk.Play();
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                reloading();
+            }
         }
     }
 }

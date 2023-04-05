@@ -117,508 +117,445 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lavelserverkind.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;lavelserverkind.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;foldername.Name" xml:space="preserve">
-    <value>foldername</value>
-  </data>
-  <data name="&gt;&gt;createserver.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;serverfile.Parent" xml:space="preserve">
-    <value>nowserverfilebox</value>
-  </data>
-  <data name="&gt;&gt;serversel.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="nowfolderbox.Text" xml:space="preserve">
-    <value>現在あるフォルダ</value>
-  </data>
-  <data name="&gt;&gt;serverfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="openprofiles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1181, 532</value>
-  </data>
-  <data name="removefile.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="serverfile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 19.8pt</value>
-  </data>
-  <data name="lavelserverkind.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;labelfoldername.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="serversel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
   </data>
   <data name="serversel.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 22</value>
   </data>
-  <data name="lavelserverkind.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 9</value>
-  </data>
-  <data name="nowserverfilebox.Text" xml:space="preserve">
-    <value>現在あるサーバーファイル</value>
-  </data>
-  <data name="createserver.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;nowfolderbox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;labelserverfile.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="start.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
   <data name="serversel.Size" type="System.Drawing.Size, System.Drawing">
     <value>379, 39</value>
   </data>
-  <data name="removefile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="exit.Text" xml:space="preserve">
-    <value>EXIT</value>
-  </data>
-  <data name="&gt;&gt;removefile.Name" xml:space="preserve">
-    <value>removefile</value>
-  </data>
-  <data name="&gt;&gt;createserver.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="nowserverfilebox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>639, 417</value>
-  </data>
-  <data name="labelfoldername.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;labelfoldername.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;start.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelfoldername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>403, 182</value>
-  </data>
-  <data name="serverfolder.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 25.8pt</value>
-  </data>
-  <data name="&gt;&gt;serverfolder.Parent" xml:space="preserve">
-    <value>nowfolderbox</value>
-  </data>
-  <data name="serverfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>623, 364</value>
-  </data>
-  <data name="&gt;&gt;nowfolderbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="openworld.Text" xml:space="preserve">
-    <value>ワールドフォルダを開く</value>
-  </data>
-  <data name="foldername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 194</value>
-  </data>
-  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="serverfile.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;versel.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="nowfolderbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 247</value>
-  </data>
-  <data name="openfolder.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="createserver.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
-  </data>
-  <data name="&gt;&gt;labelfoldername.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="reload.Text" xml:space="preserve">
-    <value>再読み込み</value>
-  </data>
-  <data name="openworld.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
-  </data>
-  <data name="&gt;&gt;openworld.Name" xml:space="preserve">
-    <value>openworld</value>
-  </data>
-  <data name="createserver.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="start.Text" xml:space="preserve">
-    <value>サーバー起動!</value>
-  </data>
-  <data name="&gt;&gt;removefile.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;start.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;createserver.Name" xml:space="preserve">
-    <value>createserver</value>
-  </data>
-  <data name="nowserverfilebox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;versel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1510, 803</value>
-  </data>
-  <data name="openprofiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
-  </data>
-  <data name="&gt;&gt;openworld.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;start.Name" xml:space="preserve">
-    <value>start</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>mainform</value>
-  </data>
-  <data name="&gt;&gt;exit.Name" xml:space="preserve">
-    <value>exit</value>
-  </data>
-  <data name="&gt;&gt;labelserverfile.Name" xml:space="preserve">
-    <value>labelserverfile</value>
-  </data>
-  <data name="&gt;&gt;foldername.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="start.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;openfolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="versel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 39</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="serversel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="lavelserverkind.Text" xml:space="preserve">
-    <value>サーバーの種類</value>
-  </data>
-  <data name="openworld.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;removefile.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="nowfolderbox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="lavelserverkind.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 62</value>
-  </data>
-  <data name="exit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;versel.Name" xml:space="preserve">
-    <value>versel</value>
-  </data>
-  <data name="lavelserverkind.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;openprofiles.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="exit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1181, 698</value>
-  </data>
-  <data name="&gt;&gt;labelfoldername.Name" xml:space="preserve">
-    <value>labelfoldername</value>
-  </data>
-  <data name="reload.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="removefile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>854, 700</value>
-  </data>
-  <data name="&gt;&gt;serversel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="&gt;&gt;nowserverfilebox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;reload.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;nowfolderbox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Minecraft Server Create Helper</value>
-  </data>
-  <data name="&gt;&gt;foldername.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;serverfile.Name" xml:space="preserve">
-    <value>serverfile</value>
-  </data>
-  <data name="nowserverfilebox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>854, 12</value>
-  </data>
-  <data name="foldername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 38</value>
-  </data>
-  <data name="&gt;&gt;createserver.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelfoldername.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;reload.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="openworld.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;exit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="versel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="nowfolderbox.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="reload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
-  </data>
-  <data name="foldername.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="serverfolder.ItemHeight" type="System.Int32, mscorlib">
-    <value>59</value>
-  </data>
-  <data name="serverfolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>824, 476</value>
-  </data>
-  <data name="serverfile.ItemHeight" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;reload.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="start.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="labelfoldername.Text" xml:space="preserve">
-    <value>サーバーフォルダの名前</value>
-  </data>
-  <data name="&gt;&gt;openworld.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;openfolder.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;start.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="createserver.Text" xml:space="preserve">
-    <value>サーバー作成!</value>
-  </data>
-  <data name="&gt;&gt;labelserverfile.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;serversel.Name" xml:space="preserve">
     <value>serversel</value>
   </data>
-  <data name="&gt;&gt;reload.Name" xml:space="preserve">
-    <value>reload</value>
+  <data name="&gt;&gt;serversel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="reload.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;serversel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;lavelserverkind.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;serversel.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;exit.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="labelserverfile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="nowfolderbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>836, 531</value>
-  </data>
-  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
-  </data>
-  <data name="exit.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="labelfoldername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 62</value>
-  </data>
-  <data name="serverfolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 37</value>
-  </data>
-  <data name="&gt;&gt;openprofiles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="removefile.Text" xml:space="preserve">
-    <value>削除</value>
-  </data>
-  <data name="&gt;&gt;nowserverfilebox.Name" xml:space="preserve">
-    <value>nowserverfilebox</value>
-  </data>
-  <data name="openprofiles.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;nowserverfilebox.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="labelfoldername.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="labelserverfile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 28.2pt, style=Bold</value>
-  </data>
-  <data name="reload.Location" type="System.Drawing.Point, System.Drawing">
-    <value>855, 616</value>
-  </data>
-  <data name="&gt;&gt;nowfolderbox.Name" xml:space="preserve">
-    <value>nowfolderbox</value>
-  </data>
-  <data name="openfolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1181, 448</value>
-  </data>
-  <data name="&gt;&gt;lavelserverkind.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="labelserverfile.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lavelserverkind.Name" xml:space="preserve">
-    <value>lavelserverkind</value>
-  </data>
-  <data name="&gt;&gt;openfolder.Name" xml:space="preserve">
-    <value>openfolder</value>
   </data>
   <data name="labelserverfile.Location" type="System.Drawing.Point, System.Drawing">
     <value>399, 99</value>
   </data>
+  <data name="labelserverfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 62</value>
+  </data>
+  <data name="labelserverfile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelserverfile.Text" xml:space="preserve">
+    <value>サーバーファイル</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.Name" xml:space="preserve">
+    <value>labelserverfile</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelserverfile.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="versel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="versel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 108</value>
+  </data>
+  <data name="versel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 39</value>
+  </data>
   <data name="versel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;versel.Name" xml:space="preserve">
+    <value>versel</value>
+  </data>
+  <data name="&gt;&gt;versel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;versel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;versel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelfoldername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelfoldername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
+  </data>
+  <data name="labelfoldername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 182</value>
+  </data>
+  <data name="labelfoldername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 62</value>
+  </data>
+  <data name="labelfoldername.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelfoldername.Text" xml:space="preserve">
+    <value>サーバーフォルダの名前</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.Name" xml:space="preserve">
+    <value>labelfoldername</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelfoldername.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="foldername.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 13.8pt, style=Bold</value>
   </data>
-  <data name="removefile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
+  <data name="foldername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 194</value>
   </data>
-  <data name="&gt;&gt;labelserverfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="foldername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 38</value>
   </data>
-  <data name="labelserverfile.Text" xml:space="preserve">
-    <value>サーバーファイル</value>
+  <data name="foldername.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="labelserverfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 62</value>
-  </data>
-  <data name="versel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 108</value>
-  </data>
-  <data name="&gt;&gt;openfolder.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;serversel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;removefile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;serverfolder.Name" xml:space="preserve">
-    <value>serverfolder</value>
-  </data>
-  <data name="serverfolder.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="serversel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;exit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="openworld.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1181, 614</value>
-  </data>
-  <data name="&gt;&gt;versel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;openprofiles.Name" xml:space="preserve">
-    <value>openprofiles</value>
-  </data>
-  <data name="&gt;&gt;serverfolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="start.Location" type="System.Drawing.Point, System.Drawing">
-    <value>855, 448</value>
-  </data>
-  <data name="&gt;&gt;openworld.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="serverfile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 32</value>
-  </data>
-  <data name="&gt;&gt;serverfolder.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="createserver.Location" type="System.Drawing.Point, System.Drawing">
-    <value>855, 532</value>
-  </data>
-  <data name="&gt;&gt;serverfile.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelserverfile.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
-  </data>
-  <data name="openfolder.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="openfolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 78</value>
-  </data>
-  <data name="&gt;&gt;nowserverfilebox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelserverfile.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="nowserverfilebox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
-  </data>
-  <data name="openfolder.Text" xml:space="preserve">
-    <value>フォルダを開く</value>
+  <data name="&gt;&gt;foldername.Name" xml:space="preserve">
+    <value>foldername</value>
   </data>
   <data name="&gt;&gt;foldername.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;openprofiles.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;foldername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;foldername.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Name" xml:space="preserve">
+    <value>serverfile</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Parent" xml:space="preserve">
+    <value>nowserverfilebox</value>
+  </data>
+  <data name="&gt;&gt;serverfile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nowserverfilebox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="nowserverfilebox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 12</value>
+  </data>
+  <data name="nowserverfilebox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>639, 417</value>
+  </data>
+  <data name="nowserverfilebox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="nowserverfilebox.Text" xml:space="preserve">
+    <value>現在あるサーバーファイル</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.Name" xml:space="preserve">
+    <value>nowserverfilebox</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nowserverfilebox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="serverfile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 19.8pt</value>
+  </data>
+  <data name="serverfile.ItemHeight" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="serverfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
+  </data>
+  <data name="serverfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>623, 364</value>
+  </data>
+  <data name="serverfile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Name" xml:space="preserve">
+    <value>serverfile</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverfile.Parent" xml:space="preserve">
+    <value>nowserverfilebox</value>
+  </data>
+  <data name="&gt;&gt;serverfile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Name" xml:space="preserve">
+    <value>serverfolder</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Parent" xml:space="preserve">
+    <value>nowfolderbox</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nowfolderbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="nowfolderbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 247</value>
+  </data>
+  <data name="nowfolderbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 531</value>
+  </data>
+  <data name="nowfolderbox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="nowfolderbox.Text" xml:space="preserve">
+    <value>現在あるフォルダ</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.Name" xml:space="preserve">
+    <value>nowfolderbox</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nowfolderbox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="serverfolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 25.8pt</value>
+  </data>
+  <data name="serverfolder.ItemHeight" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="serverfolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 37</value>
+  </data>
+  <data name="serverfolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 476</value>
+  </data>
+  <data name="serverfolder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Name" xml:space="preserve">
+    <value>serverfolder</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.Parent" xml:space="preserve">
+    <value>nowfolderbox</value>
+  </data>
+  <data name="&gt;&gt;serverfolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="createserver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="createserver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 532</value>
+  </data>
+  <data name="createserver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
+  </data>
+  <data name="createserver.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="createserver.Text" xml:space="preserve">
+    <value>サーバー作成!</value>
+  </data>
+  <data name="&gt;&gt;createserver.Name" xml:space="preserve">
+    <value>createserver</value>
+  </data>
+  <data name="&gt;&gt;createserver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createserver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;createserver.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="start.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 448</value>
+  </data>
+  <data name="start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
+  </data>
+  <data name="start.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="start.Text" xml:space="preserve">
+    <value>サーバー起動!</value>
+  </data>
+  <data name="&gt;&gt;start.Name" xml:space="preserve">
+    <value>start</value>
+  </data>
+  <data name="&gt;&gt;start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;start.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;start.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="reload.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="reload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 616</value>
+  </data>
+  <data name="reload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
+  </data>
+  <data name="reload.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="reload.Text" xml:space="preserve">
+    <value>再読み込み</value>
+  </data>
+  <data name="&gt;&gt;reload.Name" xml:space="preserve">
+    <value>reload</value>
+  </data>
+  <data name="&gt;&gt;reload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reload.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;reload.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lavelserverkind.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lavelserverkind.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
+  </data>
+  <data name="lavelserverkind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 9</value>
+  </data>
+  <data name="lavelserverkind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 62</value>
+  </data>
+  <data name="lavelserverkind.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lavelserverkind.Text" xml:space="preserve">
+    <value>サーバーの種類</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.Name" xml:space="preserve">
+    <value>lavelserverkind</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lavelserverkind.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="removefile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="removefile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 700</value>
+  </data>
+  <data name="removefile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 78</value>
+  </data>
+  <data name="removefile.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="removefile.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="&gt;&gt;removefile.Name" xml:space="preserve">
+    <value>removefile</value>
+  </data>
+  <data name="&gt;&gt;removefile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removefile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;removefile.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="openfolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="openfolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 448</value>
+  </data>
+  <data name="openfolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
+  </data>
+  <data name="openfolder.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="openfolder.Text" xml:space="preserve">
+    <value>フォルダを開く</value>
+  </data>
+  <data name="&gt;&gt;openfolder.Name" xml:space="preserve">
+    <value>openfolder</value>
+  </data>
+  <data name="&gt;&gt;openfolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openfolder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;openfolder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="openprofiles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="openprofiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 532</value>
+  </data>
+  <data name="openprofiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
   </data>
   <data name="openprofiles.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -626,7 +563,344 @@
   <data name="openprofiles.Text" xml:space="preserve">
     <value>server.propertiesを開く</value>
   </data>
+  <data name="&gt;&gt;openprofiles.Name" xml:space="preserve">
+    <value>openprofiles</value>
+  </data>
+  <data name="&gt;&gt;openprofiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openprofiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;openprofiles.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="openworld.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="openworld.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 616</value>
+  </data>
+  <data name="openworld.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
+  </data>
+  <data name="openworld.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="openworld.Text" xml:space="preserve">
+    <value>ワールドフォルダを開く</value>
+  </data>
+  <data name="&gt;&gt;openworld.Name" xml:space="preserve">
+    <value>openworld</value>
+  </data>
+  <data name="&gt;&gt;openworld.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openworld.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;openworld.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="exit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 700</value>
+  </data>
+  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
+  </data>
+  <data name="exit.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="exit.Text" xml:space="preserve">
+    <value>EXIT</value>
+  </data>
+  <data name="&gt;&gt;exit.Name" xml:space="preserve">
+    <value>exit</value>
+  </data>
+  <data name="&gt;&gt;exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;exit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="createshortcut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="createshortcut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createshortcut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1281, 448</value>
+  </data>
+  <data name="createshortcut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 78</value>
+  </data>
+  <data name="createshortcut.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="createshortcut.Text" xml:space="preserve">
+    <value>ショートカット作成</value>
+  </data>
+  <data name="&gt;&gt;createshortcut.Name" xml:space="preserve">
+    <value>createshortcut</value>
+  </data>
+  <data name="&gt;&gt;createshortcut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createshortcut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;createshortcut.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1509, 803</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 28.2pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Minecraft Server Create Helper</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>mainform</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

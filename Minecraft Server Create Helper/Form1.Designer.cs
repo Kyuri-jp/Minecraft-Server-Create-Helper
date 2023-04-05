@@ -47,6 +47,8 @@
             this.openprofiles = new System.Windows.Forms.Button();
             this.openworld = new System.Windows.Forms.Button();
             this.exit = new System.Windows.Forms.Button();
+            this.createshortcut = new System.Windows.Forms.Button();
+            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.nowserverfilebox.SuspendLayout();
             this.nowfolderbox.SuspendLayout();
             this.SuspendLayout();
@@ -65,8 +67,8 @@
             // 
             // versel
             // 
-            resources.ApplyResources(this.versel, "versel");
             this.versel.BackColor = System.Drawing.SystemColors.Window;
+            resources.ApplyResources(this.versel, "versel");
             this.versel.FormattingEnabled = true;
             this.versel.Name = "versel";
             this.versel.SelectedIndexChanged += new System.EventHandler(this.versel_SelectedIndexChanged);
@@ -83,9 +85,9 @@
             // 
             // nowserverfilebox
             // 
-            resources.ApplyResources(this.nowserverfilebox, "nowserverfilebox");
             this.nowserverfilebox.BackColor = System.Drawing.SystemColors.Control;
             this.nowserverfilebox.Controls.Add(this.serverfile);
+            resources.ApplyResources(this.nowserverfilebox, "nowserverfilebox");
             this.nowserverfilebox.Name = "nowserverfilebox";
             this.nowserverfilebox.TabStop = false;
             // 
@@ -97,25 +99,25 @@
             // 
             // nowfolderbox
             // 
-            resources.ApplyResources(this.nowfolderbox, "nowfolderbox");
             this.nowfolderbox.Controls.Add(this.serverfolder);
+            resources.ApplyResources(this.nowfolderbox, "nowfolderbox");
             this.nowfolderbox.Name = "nowfolderbox";
             this.nowfolderbox.TabStop = false;
             // 
             // serverfolder
             // 
-            resources.ApplyResources(this.serverfolder, "serverfolder");
             this.serverfolder.BackColor = System.Drawing.SystemColors.Menu;
+            resources.ApplyResources(this.serverfolder, "serverfolder");
             this.serverfolder.FormattingEnabled = true;
             this.serverfolder.Name = "serverfolder";
-            this.serverfolder.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.serverfolder.SelectedIndexChanged += new System.EventHandler(this.serverfolder_SelectedIndexChanged);
             // 
             // createserver
             // 
             resources.ApplyResources(this.createserver, "createserver");
             this.createserver.Name = "createserver";
             this.createserver.UseVisualStyleBackColor = true;
-            this.createserver.Click += new System.EventHandler(this.button1_Click);
+            this.createserver.Click += new System.EventHandler(this.createserver_Click);
             // 
             // start
             // 
@@ -171,17 +173,28 @@
             this.exit.UseVisualStyleBackColor = true;
             this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
+            // createshortcut
+            // 
+            resources.ApplyResources(this.createshortcut, "createshortcut");
+            this.createshortcut.Name = "createshortcut";
+            this.createshortcut.UseVisualStyleBackColor = true;
+            this.createshortcut.Click += new System.EventHandler(this.createshortcut_Click);
+            // 
+            // folderBrowserDialog
+            // 
+            // 
             // mainform
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ControlBox = false;
+            this.Controls.Add(this.createshortcut);
+            this.Controls.Add(this.openfolder);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.labelfoldername);
             this.Controls.Add(this.openworld);
             this.Controls.Add(this.openprofiles);
-            this.Controls.Add(this.openfolder);
             this.Controls.Add(this.removefile);
             this.Controls.Add(this.labelserverfile);
             this.Controls.Add(this.lavelserverkind);
@@ -196,7 +209,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "mainform";
-            this.Load += new System.EventHandler(this.GUI_Load);
+            this.Load += new System.EventHandler(this.mainform_Load);
             this.nowserverfilebox.ResumeLayout(false);
             this.nowfolderbox.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -224,6 +237,8 @@
         private System.Windows.Forms.Button openprofiles;
         private System.Windows.Forms.Button openworld;
         private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.Button createshortcut;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
     }
 }
 
