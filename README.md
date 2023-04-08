@@ -9,6 +9,8 @@ minecraftサーバーの作成を助けてくれるアプリケーションで�
 
 あくまでも「Helper」なのでポート開放とかサーバーファイルのダウンロードとかはしてくれません
 
+対応OSはwindowsです
+
 ある程度minecraftサーバーの知識はあったほうがいいです
 # ダウンロード
 https://github.com/Kyuri-jp/Minecraft-Server-Create-Helper/releases
