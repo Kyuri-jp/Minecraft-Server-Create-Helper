@@ -55,5 +55,11 @@ https://github.com/Kyuri-jp/Minecraft-Server-Create-Helper/releases
 - ショートカット作成：リストボックス「現在あるフォルダ」で選択されているフォルダ内の「start.bat」のショートカットを指定したフォルダに作成できます
 
 - EXIT: アプリケーションを終了させます
+# ライセンス
+本プラグインのライセンスは「GPL-3.0」に従います。ライセンス条文は下記を参照
+
+https://www.gnu.org/licenses/gpl-3.0.en.html (英語)
+
+https://licenses.opensource.jp/GPL-3.0/GPL-3.0.html (日本語)
 
 
