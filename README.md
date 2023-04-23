@@ -12,8 +12,8 @@ minecraftサーバーの作成を助けてくれるアプリケーションで�
 対応OSはwindowsです
 
 ある程度minecraftサーバーの知識はあったほうがいいです
-# ダウンロード
-https://github.com/Kyuri-jp/Minecraft-Server-Create-Helper/releases
+
+[Release](https://github.com/Kyuri-jp/Minecraft-Server-Create-Helper/releases)
 # 使い方
 ## セットアップ
 **minecraftのeulaに同意していることが前提です https://www.minecraft.net/ja-jp/eula**
